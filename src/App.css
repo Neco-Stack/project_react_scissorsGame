@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Heller Hintergrund */
-  color: #333; /* Dunkle Schriftfarbe */
+  background-color: #f0f0f0; 
+  color: #333; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,7 @@ body {
 }
 
 .game-board {
-  background-color: white; /* Weißer Hintergrund für das Spielbrett */
+  background-color: white; 
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -18,11 +18,11 @@ body {
 }
 
 h1 {
-  color: #000; /* Schwarze Überschrift */
+  color: #000; 
 }
 
 h2 {
-  color: #000; /* Schwarze Schriftfarbe für die Computerwahl */
+  color: #000; 
 }
 
 button {
@@ -32,38 +32,38 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color: #000; /* Schwarze Schaltfläche */
-  color: white; /* Weiße Schriftfarbe */
-  transition: background-color 0.3s ease; /* Sanfter Übergang */
+  background-color: #000; 
+  color: white; 
+  transition: background-color 0.3s ease; 
 }
 
 button:hover {
-  background-color: #444; /* Dunklerer Blauton beim Hover */
+  background-color: #444; 
 }
 
 .reset-button {
-  background-color: #dc3545; /* Rote Schaltfläche für "Play Again" */
+  background-color: #dc3545; 
 }
 
 .reset-button:hover {
-  background-color: #c82333; /* Dunklerer Rotton beim Hover */
+  background-color: #c82333; 
 }
 
 .icon-large {
-  font-size: 2rem; /* Größe der Icons anpassen */
+  font-size: 2rem; 
 }
 .icon-container {
-  display: inline-flex; /* Damit die Icons nebeneinander angezeigt werden */
+  display: inline-flex;  
   justify-content: center;
   align-items: center;
-  width: 100px; /* Breite des quadratischen Containers */
-  height: 100px; /* Höhe des quadratischen Containers */
+  width: 100px; 
+  height: 100px; 
 
-  border-radius: 10px; /* Abgerundete Ecken */
-  background-color: #fff; /* Weißer Hintergrund */
-  margin: 10px; /* Abstand zwischen den Containern */
+  border-radius: 10px; 
+  background-color: #fff; 
+  margin: 10px; 
 }
 
 .icon-large {
-  font-size: 2rem; /* Größe der Icons anpassen */
+  font-size: 2rem; 
 }
