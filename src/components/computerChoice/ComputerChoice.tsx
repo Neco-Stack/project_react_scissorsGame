@@ -20,7 +20,7 @@ const ComputerChoice: React.FC<ComputerChoiceProps> = ({choice}) => {
 
     return (
         <div className="icon-container">
-            <h2> {getIcon() || 'Waiting...'}</h2>
+            <h2> {getIcon()}</h2>
         </div>
     );
 }
