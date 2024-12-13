@@ -58,7 +58,7 @@ button:hover {
   align-items: center;
   width: 100px; /* Breite des quadratischen Containers */
   height: 100px; /* Höhe des quadratischen Containers */
-  border: 2px solid #000; /* Schwarzer Rand */
+
   border-radius: 10px; /* Abgerundete Ecken */
   background-color: #fff; /* Weißer Hintergrund */
   margin: 10px; /* Abstand zwischen den Containern */
